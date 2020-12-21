@@ -1,4 +1,9 @@
-num = int(input("Enter the num below 50: "))
+name = input('Enter your name: ')
+num = int(input("Enter the number: "))
 
-for n in range(50,num-1,-1):
-    print(n)
+if num >=10:
+    print("Too long")
+
+else:
+    for i in range(num):
+        print(name)
